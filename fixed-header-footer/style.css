@@ -27,8 +27,33 @@ main {
     flex: 1;
     overflow-y: scroll;
     order: 2;
+    display: flex;
+    justify-content: center;
 }
 
-main p {
+article {
+    order: 2;
+    width: 60%;
+    max-width: 800px;
+    background-color: #ecc;
+}
+
+article p {
     height: 100px;
+}
+
+aside {
+    position: sticky;
+    top: 0;
+    width: 20%;
+    max-width: 300px;
+    background-color: #cce;
+}
+
+#left-side-bar {
+    order: 1;
+}
+
+#right-side-bar {
+    order: 3;
 }

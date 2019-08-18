@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    background-color: #cec;
+    height: 70px;
+    order: 1;
+}
+
+footer {
+    background-color: #cec;
+    height: 70px;
+    order: 3;
+}
+
+main {
+    flex: 1;
+    overflow-y: scroll;
+    order: 2;
+}
+
+main p {
+    height: 100px;
+}

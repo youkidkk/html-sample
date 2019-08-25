@@ -23,7 +23,7 @@ footer {
     order: 3;
 }
 
-main {
+#container {
     flex: 1;
     overflow-y: scroll;
     order: 2;
@@ -31,14 +31,14 @@ main {
     justify-content: center;
 }
 
-article {
+main {
     order: 2;
     width: 60%;
     max-width: 800px;
     background-color: #ecc;
 }
 
-article p {
+main p {
     height: 100px;
 }
 
